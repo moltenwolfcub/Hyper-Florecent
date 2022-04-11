@@ -1,7 +1,10 @@
 package com.pandalou.hyper_florecent;
 
 import com.mojang.logging.LogUtils;
+import com.pandalou.hyper_florecent.init.ModItems;
+
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -16,7 +19,11 @@ public class HyperFlorecent
     public static final String MODID = "hyper_florecent";
 
     public HyperFlorecent() {
+        IEventBus registryBus = FMLJavaModLoadingContext.get().getModEventBus();
+
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+
+        ModItems.ITEMS.register(registryBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
