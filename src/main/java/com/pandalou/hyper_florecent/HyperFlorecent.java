@@ -2,7 +2,9 @@ package com.pandalou.hyper_florecent;
 
 import com.mojang.logging.LogUtils;
 import com.pandalou.hyper_florecent.init.ModItems;
+import com.pandalou.hyper_florecent.item.util.MainCreativeTab;
 
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -16,6 +18,7 @@ public class HyperFlorecent
 {
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
+    public static final CreativeModeTab TAB = new MainCreativeTab();
     public static final String MODID = "hyper_florecent";
 
     public HyperFlorecent() {
