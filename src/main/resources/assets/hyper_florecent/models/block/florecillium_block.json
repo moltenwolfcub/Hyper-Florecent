@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "hyper_florecent:block/florecillium_block"
+    }
+}

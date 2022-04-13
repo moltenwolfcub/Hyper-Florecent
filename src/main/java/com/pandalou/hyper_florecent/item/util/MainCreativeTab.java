@@ -14,7 +14,7 @@ public class MainCreativeTab extends CreativeModeTab {
 
     @Override
     public ItemStack makeIcon() {
-        return new ItemStack(ModItems.FLORECILLIUM.get());
+        return new ItemStack(ModItems.FLORECILLIUM_BLOCK_ITEM.get());
     }
     
 }

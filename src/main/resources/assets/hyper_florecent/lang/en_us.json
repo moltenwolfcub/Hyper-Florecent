@@ -1,5 +1,7 @@
 {
     "itemGroup.hyper_florecent": "Hyper Florecent",
 
-    "item.hyper_florecent.florecillium": "Florecillium"
+    "item.hyper_florecent.florecillium": "Florecillium",
+
+    "block.hyper_florecent.florecillium_block": "Block of Florecillium"
 }

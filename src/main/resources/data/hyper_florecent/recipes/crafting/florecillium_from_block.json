@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "hyper_florecent:florecillium_block"
+        }
+    ],
+    "result": {
+        "item": "hyper_florecent:florecillium",
+        "count": 4
+    }
+}

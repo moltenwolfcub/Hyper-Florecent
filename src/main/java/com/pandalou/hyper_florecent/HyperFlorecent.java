@@ -1,6 +1,7 @@
 package com.pandalou.hyper_florecent;
 
 import com.mojang.logging.LogUtils;
+import com.pandalou.hyper_florecent.init.ModBlocks;
 import com.pandalou.hyper_florecent.init.ModItems;
 import com.pandalou.hyper_florecent.item.util.MainCreativeTab;
 
@@ -27,6 +28,7 @@ public class HyperFlorecent
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
 
         ModItems.ITEMS.register(registryBus);
+        ModBlocks.BLOCKS.register(registryBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
