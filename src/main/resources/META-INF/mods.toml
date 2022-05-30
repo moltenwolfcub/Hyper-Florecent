@@ -4,7 +4,7 @@ license="All rights reserved"
 
 [[mods]]
 modId="hyper_florecent"
-version="0.0.1"
+version="0.0.2"
 displayName="Hyper-florecent"
 logoFile="logo.png"
 authors="PandaLou & MoltenWolfCub"
