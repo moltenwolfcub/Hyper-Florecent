@@ -16,5 +16,5 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> FLORECILLIUM_BLOCK = BLOCKS.register("florecillium_block", 
         ()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(2.1f, 3.2f).requiresCorrectToolForDrops()
-            .lightLevel((light) ->{ return 15; }).speedFactor(1.5f).jumpFactor(4).sound(SoundType.AMETHYST)));
+            .lightLevel((light) ->{ return 15; }).jumpFactor(4).speedFactor(1.1f).friction(1f).sound(SoundType.AMETHYST)));
 }
