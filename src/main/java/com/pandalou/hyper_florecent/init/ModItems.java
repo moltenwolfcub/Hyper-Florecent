@@ -1,6 +1,7 @@
 package com.pandalou.hyper_florecent.init;
 
 import com.pandalou.hyper_florecent.HyperFlorecent;
+import com.pandalou.hyper_florecent.item.PoopRemover;
 import com.pandalou.hyper_florecent.item.util.BlockItemBase;
 import com.pandalou.hyper_florecent.item.util.ItemBase;
 
@@ -14,6 +15,8 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, HyperFlorecent.MODID);
 
     public static final RegistryObject<Item> FLORECILLIUM = ITEMS.register("florecillium", ItemBase::new);
+
+    public static final RegistryObject<Item> POOP_REMOVER = ITEMS.register("poop_remover", () -> new PoopRemover());
 
     //BlockItems
 
